@@ -1,0 +1,7 @@
+JVM是java语言能跨平台的前提，但JVM本身不能跨平台
+JDK 与 JVM 与 JRE 三者的关系
+JDK： java软件开发的工具包  JRE+ 开发工具
+      开发java程序最小的环境为JDK， JDK是java语言的核心
+JRE ： java运行时的环境 JVM + 运行 java程序必需的环境
+       运行java最小的环境
+JVM： java虚拟机，加载.class 文件，并运行.class 文件

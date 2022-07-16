@@ -9,6 +9,12 @@ Ctrl + x 裁剪
 Ctrl + c复制
 Ctrl +v 粘贴
 Ctrl +i 格式化代码//Ctrl alt + i
+ctrl + / 单行注释
+Ctrl + shift + /  多行注释
+注释: 单行注释（//）  多行注释（/* * /）、文档注释（/** * /）
+
+大驼峰命名法 ： HelloWorld
+小驼峰命名法 ： helloWorld
  */
 public class HelloWorld {
     public static void main(String[] args) {
