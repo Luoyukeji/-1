@@ -31,5 +31,29 @@ public class Test_TypyScope {
         long longMin = Long.MIN_VALUE;
         System.out.println("longMax = "+ longMax);
         System.out.println("longMin = "+ longMin);
-    }
+
+        System.out.println("-----------");
+        double doubleMax = Double.MAX_VALUE;
+        double doubleMin = Double.MIN_VALUE;
+        System.out.println(doubleMax);
+        System.out.println(doubleMin);
+
+        System.out.println("----------------");
+        float floatMax = Float.MAX_VALUE;
+        float floatMin = Float.MIN_VALUE;
+        System.out.println(floatMax);//3.4028235E38
+        System.out.println(floatMin);//1.4E-45
+
+        //char 字符型
+        char ch1 = 'a';
+        char ch2 = 97;//可以保存数字，但是在打印的时候，回去查ASCII码表
+        //65->A   66-B  97-a  98-b
+        char ch3 = '❤';
+
+        System.out.println(ch1);
+        System.out.println(ch2);
+        System.out.println(ch3);
+
+
+        }
 }
