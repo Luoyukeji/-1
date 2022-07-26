@@ -6,7 +6,7 @@ public class BaoChai {
     public static void main(String[] args) {
         // - 装箱：把基本数据类型转换为对应包装类类型
         Integer i = Integer.valueOf(100);
-        Integer ii =100;//自动装箱Integer.valueOf(100);
+        Integer ii =100;//自动装箱Integer.valueOf(100);switch
         //- 拆箱：把包装类型转换为对应的基本数据类型
        /* ii = ii.intValue()+200;
         System.out.println(ii);*/
