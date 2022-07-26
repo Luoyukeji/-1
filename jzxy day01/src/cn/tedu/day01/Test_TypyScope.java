@@ -48,7 +48,7 @@ public class Test_TypyScope {
         char ch1 = 'a';
         char ch2 = 97;//可以保存数字，但是在打印的时候，回去查ASCII码表
         //65->A   66-B  97-a  98-b
-        char ch3 = '❤';
+        char ch3 = '中';
 
         System.out.println(ch1);
         System.out.println(ch2);
