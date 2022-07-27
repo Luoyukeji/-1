@@ -11,6 +11,22 @@ public class Demo1 {
         a.eat();//多态中成员方法使用的是父类的声明，实现的是子类中的内容
 
         a.play();//玩撒
+
+        //向下转型
+        if (d instanceof Animal) {
+            Dog d1 = (Dog) a;//向下转型
+            System.out.println(d1);
+
+            return;
+        }
+        //玩撒
+
+//        try {
+//            d1.eat();
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+
     }
 }
 class Animal{
@@ -28,6 +44,8 @@ class Dog extends Animal{
     @Override
     public void eat() {
         System.out.println("狗跑的贼快");
+
+
     }
 //    public static void play(){//静态代码块属于类，这个不属于重写，只是方法名相同
 //
