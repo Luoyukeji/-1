@@ -1,0 +1,30 @@
+hashCode
+public int hashCode()
+        返回该对象的哈希码值。
+
+equals
+public boolean equals(Object obj)指示其他某个对象是否与此对象“相等”。
+equals 方法在非空对象引用上实现相等关系：
+
+自反性：对于任何非空引用值 x，x.equals(x) 都应返回 true。
+对称性：对于任何非空引用值 x 和 y，当且仅当 y.equals(x) 返回 true 时，x.equals(y) 才应返回 true。
+传递性：对于任何非空引用值 x、y 和 z，如果 x.equals(y) 返回 true，并且 y.equals(z) 返回 true，那么 x.equals(z) 应返回 true。
+一致性：对于任何非空引用值 x 和 y，多次调用 x.equals(y) 始终返回 true 或始终返回 false，前提是对象上 equals 比较中所用的信息没有被修改。
+对于任何非空引用值 x，x.equals(null) 都应返回 false。
+
+
+
+文档注释：
+   类上面：为了说明，设计当前类得到目的
+   方法上面：为指定用户添加问候语
+   常量上面：
+
+
+String：引用数据类型
+public final class String implements Serializable, Comparable<String>, CharSequence {
+被final 修饰 ，常量
+
+==比较的是地址
+重写的
+equals比较的是字符串内容
+}

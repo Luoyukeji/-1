@@ -1,0 +1,17 @@
+StringBuilder 和 StringBuffer
+
+特点： 封装了char[]数组，是可变的字符序列，提供了一直可以对字符串进行修改的方法
+StringBuilder线程更安全，同步处理，性能稍慢，始于jdk1.5
+StringBuffer：非线程安全，并发处理，性能稍快，始于jdk1.0
+
+reverse() :翻转
+日期工具类:Date
+
+ 包装类：java中定义了8个包装类，目的是为了解决基本数据类型不能直接参与面向对象的开发问题
+
+ Integer，Charactor，Byte，Short，Long，Float，Double，Boolean
+
+ Character和Boolean 继承自顶级父类Object包下，其余6个都是继承自java.lang.Number下
+ Number：是数字包装类的抽象父类
+
+ 自动装箱，和自动拆箱

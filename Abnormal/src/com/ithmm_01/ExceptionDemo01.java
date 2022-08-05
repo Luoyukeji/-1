@@ -3,7 +3,6 @@ package com.ithmm_01;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.SimpleTimeZone;
 
 /*
 Java中的异常被分为两大类：==编译时异常和运行时异常==，也称为==受检异常和非受检异常==
@@ -23,10 +22,11 @@ public class ExceptionDemo01 {
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
             Date p = sdf.parse(s);
             System.out.println(p);
+            System.out.println("dddd");
         }catch(ParseException e){
             e.printStackTrace();
         }
-
+        System.out.println("sbidea");
     }
     //运行时异常
 //    public static void method(){
